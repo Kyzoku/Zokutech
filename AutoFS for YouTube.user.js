@@ -100,4 +100,3 @@
 		applyAutoFSStyle(!!document.fullscreenElement);
     }
 })();
-
