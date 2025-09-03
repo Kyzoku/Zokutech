@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         AutoFS for YouTube
-// @version      1.31
+// @version      1.3.2
 // @license      none
 // @description  Automatically enters fullscreen when video plays, exits when paused or ended.
 // @author       Kryzalin & Microsoft Copilot
