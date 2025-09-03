@@ -61,7 +61,7 @@
 
 		const btn = document.createElement('img');
 		btn.id = 'yt-toggle-autofs';
-		btn.src = 'https://i.imgur.com/pogMzU2.png'; // default icon
+		btn.src = 'https://raw.githubusercontent.com/Kyzoku/Zokutech/refs/heads/main/Images/AutoFS-ON.png';
 		btn.style.height = '26px';
 		btn.style.width = '26px';
 		btn.style.marginLeft = '10px';
@@ -76,8 +76,8 @@
         document.title = `${baseTitle} - ${disabled ? "YT-STOP" : "YT-PAUSED"}`;
 
         btn.src = disabled
-            ? 'https://i.imgur.com/mwURmEw.png'
-            : 'https://i.imgur.com/pogMzU2.png';
+            ? 'https://raw.githubusercontent.com/Kyzoku/Zokutech/refs/heads/main/Images/AutoFS-OFF.png'
+            : 'https://raw.githubusercontent.com/Kyzoku/Zokutech/refs/heads/main/Images/AutoFS-ON.png';
     };
 
     controls.appendChild(btn);
